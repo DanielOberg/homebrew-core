@@ -4,7 +4,7 @@ class Libgit2 < Formula
   url "https://github.com/libgit2/libgit2/archive/v1.1.1.tar.gz"
   sha256 "13a525373f64c711a00a058514d890d1512080265f98e0935ab279393f21a620"
   license "GPL-2.0-only"
-  head "https://github.com/libgit2/libgit2.git"
+  head "https://github.com/libgit2/libgit2.git", branch: "main"
 
   livecheck do
     url :stable
